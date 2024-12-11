@@ -1,0 +1,92 @@
+body {
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+    font-family: Arial, sans-serif;
+}
+.schedlue__heading {
+    color: white;
+}
+
+#event-form {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #444; /* Lighter border for visibility */
+    border-radius: 5px;
+    max-width: 400px;
+    background-color: #222; /* Dark grey form background for better contrast */
+}
+
+#event-form input,
+#event-form button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+    background-color: #333; /* Dark grey background for input fields */
+    color: #fff; /* Set input text color to white */
+    border: 1px solid #555; /* Slightly lighter border */
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#event-form button {
+    background-color: #555; /* Slightly lighter button background */
+    cursor: pointer;
+}
+
+#event-form button:hover {
+    background-color: #777; /* Lighten the button on hover */
+}
+
+#calendar {
+    color: #fff; /* Set calendar text color to white */
+}
+
+/* FullCalendar Custom Styling */
+.fc {
+    color: #fff; /* Set general calendar text color to white */
+}
+
+.fc-toolbar {
+    color: #fff;
+}
+
+.fc-toolbar-title {
+    color: #fff; /* Set toolbar title text color to white */
+}
+
+.fc-button {
+    background-color: #333; /* Set button background to dark */
+    border: 1px solid #444; /* Button border */
+    color: #fff; /* Set button text color to white */
+}
+
+.fc-button:hover {
+    background-color: #555; /* Lighten the button on hover */
+}
+
+.fc-button-primary {
+    background-color: #444; /* Set primary button background to slightly lighter */
+}
+
+.fc-button-primary:hover {
+    background-color: #666; /* Lighten primary button on hover */
+}
+
+.fc-daygrid-day-number {
+    color: #ccc; /* Set day number color to a light grey for contrast */
+}
+
+.fc-event {
+    background-color: #007bff; /* Set event color to blue for visibility */
+    color: #fff; /* Set event text color to white */
+    border: none; /* Remove event border */
+}
+
+.fc-day-today {
+    background-color: rgba(
+        255,
+        255,
+        255,
+        0.1
+    ); /* Highlight today in a subtle way */
+}
