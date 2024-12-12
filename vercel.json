@@ -1,6 +1,12 @@
 {
     "version": 2,
     "framework": null,
+    "builds": [
+        {
+            "src": "composer.json",
+            "use": "@vercel/php@0.6.0"
+        }
+    ],
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.6.0" }
     },
